@@ -1,0 +1,46 @@
+/*
+    1- Common Styles
+    2- General CSS Styles
+    3- Sections
+        3.0 Header Section
+        3.1 Home Section
+        3.2 About Section
+        3.3 Portfolio Section
+        3.4 Services Section
+        3.5 Prices Section
+        3.6 Team Section
+        3.7 Blog Section
+        3.8 Contact Section
+        3.9 footer Section
+ */
+
+
+/* 1- Common Styles */
+/*
+    - Container
+    - Opacity hover
+    - Section header
+    - Section padding
+    - Hover effect 1 ( left to right )
+    - Hover effect 1 ( top to bottom )
+ */
+
+
+/* 2- General CSS style */
+ body{
+    font-family: 'Varela Round', sans-serif;
+ }
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+
+.container {
+   width: 80%;
+   margin: auto;
+}
+
