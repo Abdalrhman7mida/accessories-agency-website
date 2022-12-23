@@ -92,6 +92,25 @@ li {
    background-color: #6195ff;
 }
 
+.ltr-effect {
+   position: relative;
+}
+
+.ltr-effect:after {
+   position: absolute;
+   content: "";
+   background-color: #333;
+   width: 0;
+   height: 100%;
+   top: 0;
+   left: 0;
+   transition: width 0.5s;
+   z-index: -1;
+}
+
+.ltr-effect:hover:after {
+   width: 100%;
+}
 /* 3- Sections */
 /* 3.0 Header Section */
 
