@@ -300,3 +300,16 @@ li {
    overflow: hidden;
 }
 
+.portfolio-item{
+   width: 32%;
+   float:left;
+   margin-bottom: 25px;
+   position: relative;
+   padding: 20px;
+}
+.portfolio-item.mg {
+   margin: 0% 2%;
+}
+.portfolio-item img{
+   width: 100%;
+}
