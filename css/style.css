@@ -295,3 +295,8 @@ li {
 .Portfolio{
    background: #f9f9f9;
 }
+
+.portfolio-content{
+   overflow: hidden;
+}
+
