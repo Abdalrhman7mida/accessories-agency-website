@@ -70,6 +70,47 @@ li {
    list-style: none;
 }
 
+.pd-y {
+   padding: 120px 0px;
+}
+.section-header {
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.section-header .section-title {
+   font-size: 35px;
+   text-transform: capitalize;
+   margin-bottom: 10px;
+}
+
+.section-header .line {
+   display: block;
+   width: 60px;
+   height: 5px;
+   margin: 0px auto 70px auto;
+   background-color: #6195ff;
+}
+
+.ltr-effect {
+   position: relative;
+}
+
+.ltr-effect:after {
+   position: absolute;
+   content: "";
+   background-color: #333;
+   width: 0;
+   height: 100%;
+   top: 0;
+   left: 0;
+   transition: width 0.5s;
+   z-index: -1;
+}
+
+.ltr-effect:hover:after {
+   width: 100%;
+}
 /* 3- Sections */
 /* 3.0 Header Section */
 
@@ -206,3 +247,48 @@ li {
    background-color: #6195ff;
    color: #fff;
 }
+
+/* 3.2 About Section */
+
+.about-content {
+   overflow: hidden;
+}
+
+.about-item.mg {
+   margin: 0 5%;
+}
+
+.about-item {
+   width: 30%;
+   float: left;
+   text-align: center;
+   border: 1px solid #e8e8e8;
+   padding: 50px 20px;
+}
+
+.about-item .icon {
+   color: #6195ff;
+   margin-bottom: 10px;
+}
+
+.about-item-title {
+   text-transform: capitalize;
+   margin-bottom: 10px;
+   transition: color 0.5s;
+}
+
+.about-item:hover .about-item-title {
+   color: #fff;
+} 
+
+.about-item-desc {
+   color: gray;
+   line-height: 1.6;
+   margin-bottom: 10px;
+}
+
+.about-item-link {
+   color: #6195ff;
+   text-transform: capitalize;
+}
+
